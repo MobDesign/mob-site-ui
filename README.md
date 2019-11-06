@@ -22,7 +22,7 @@ Primeiro precisamos entender o que é o Git. [Você pode saber mais sobre neste 
 
 Agora que já sabemos o que é o Git e como funciona, precisamos clonar o projeto. Caso esteja use o terminal, digite o comando:
 
-> git clone https://github.com/Bia96/mob-site-ui.git
+> git clone https://github.com/MobDesign/mob-site-ui.git
 
 Provavelmente, em seguida, o terminal pedirá para você se identificar como usuário do Github. Faça login normalmente com seu usuário e senha. Ele também pedirá para você escolher uma pasta no computador onde sua cópia local será criada - escolha uma pasta de fácil acesso. Se tudo der certo, você agora estará colaborando com este repositório e terá uma cópia dele no seu computador.
 
