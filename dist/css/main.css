@@ -1290,8 +1290,8 @@ hr {
 
 @media (min-width: 1200px) {
   #terapiaSection {
-    margin-left: 8rem;
-    margin-right: 8rem;
+    margin-left: 16rem;
+    margin-right: 16rem;
   }
 }
 
@@ -1443,14 +1443,14 @@ hr {
     display: flex;
     margin-right: 25%;
   }
-}
 
-@media(min-width: 320px) {
   #empresas-parceiras-carousel {
     margin-left: 50px;
     margin-right: 50px; 
   }
+}
 
+@media(min-width: 320px) {
   #empresas-parceiras-carousel img {
     max-width: fit-content;
     align-self: center;
