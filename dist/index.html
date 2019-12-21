@@ -50,7 +50,7 @@
     <nav id="topBar" class="navbar d-none d-sm-block">
         <div class="container navbar-container">
             <div id="topInfo" class="inline-block float-left">
-        
+
                 <i class="fas fa-map-marked"></i> ATENDEMOS TODO O BRASIL | Rio de Janeiro - RJ
             </div>
             <div id="topInfo" class="inline-block float-right pr-3">
@@ -70,18 +70,21 @@
             </div>
         </div>
     </nav>
+    <!-- LANGING -->
     <section class="landing" aria-label="Olá, somos a Mob">
         <div class="img-overlay"></div>
         <div class="carousel slide bg-image w-100" data-ride="carousel">
             <div class="carousel-inner" role="listbox">
                 <!-- Slide One - Set the background image for this slide in the line below -->
-                <div class="carousel-item active" style="background-image: url('images/time-mob-Shell-Iniciativa-Jovem.png')">
+                <div class="carousel-item active"
+                    style="background-image: url('images/time-mob-Shell-Iniciativa-Jovem.png')">
                 </div>
                 <!-- Slide Two - Set the background image for this slide in the line below -->
                 <div class="carousel-item" style="background-image: url('images/homem-protese.jpeg')">
                 </div>
                 <!-- Slide Three - Set the background image for this slide in the line below -->
-                <div class="carousel-item" style="background-image: url('images/Garota-Cadeirante-Praticando-Esportes.png')">
+                <div class="carousel-item"
+                    style="background-image: url('images/Garota-Cadeirante-Praticando-Esportes.png')">
                 </div>
             </div>
         </div>
@@ -90,15 +93,15 @@
                 <h1 class="">Olá, somos a Mob.</h1>
                 <p>Você trabalha com produtos que atendam pessoas com deficiencia, mobilidade reduzida ou idosos?
                     Nós te ajudamos a se conectar com a Indústria, venha mobilizar com a gente!</p>
-            
+
                 <button
                     onclick="window.open('https://docs.google.com/forms/d/1b69oFudsz8ug6OJ0I2_kKug0FEKBCZ92LM_Ci99U3SY/','_blank');"
                     class="flex-large mt-3 w-100">Quero saber mais</button>
-            
+
             </div>
         </div>
     </section>
-
+    <!-- PRODUCT CARDS -->
     <section class="product-cards" aria-label="Nossos Pilares">
         <div id="productCards" class="section-container margin-top">
             <h1 class="text-center">O que fazemos</h1>
@@ -160,32 +163,34 @@
         </div>
     </section>
 
-    <section class="terapia-projetos section-container" aria-label="Terapia de projetos">
+    <section class="terapia-projetos" aria-label="Terapia de projetos">
         <div id="terapiaSection" class="section-container margin-top">
             <div class="card card-tall p-0">
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div id="terapia-bg-Img1" class="carousel-item active">
                             <div class="d-flex flex-row-reverse">
-                                <div id="carouselCaptionBgcolor" class="carousel-caption d-none d-md-block rounded-0">
+                                <div id="carouselCaptionBgcolor"
+                                    class="terapiaProjetosCaption carousel-caption d-block rounded-0">
                                     <div class="w-75 m-auto">
                                         <h1 class="text-light">Terapia de projetos</h1>
-                                        <h5 class="text-light lead">
+                                        <p class="text-light font-weight-bold">
                                             <span>Tudo que você precisa para o seu projeto!</span>
                                             <span>Dicas desde os primeiros modelos e
                                                 protótipos, até
                                                 a
                                                 comercialização e distribuição do produto.</span>
-                                        </h5>
-                                        <button onclick="window.open('https://mobdesignassistivo.youcanbook.me/','_blank');"
+                                        </p>
+                                        <button
+                                            onclick="window.open('https://mobdesignassistivo.youcanbook.me/','_blank');"
                                             class="flex-large mt-3 w-40">Agende já sua terapia</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div id="terapia-bg-Img2" class="carousel-item">
-                            <h1 class="text-dark text-center">Podemos te ajudar com</h1>
-                            <div class="carousel-caption d-none d-md-block">
+                            <h1 class="terapiaProjetosPodemos text-dark text-center">Podemos te ajudar com</h1>
+                            <div class="carousel-caption d-block">
                                 <div class="w-75 m-auto">
                                     <button onclick="window.open('https://mobdesignassistivo.youcanbook.me/','_blank');"
                                         class="flex-large mt-3 w-40">Agende já sua terapia</button>
@@ -203,10 +208,10 @@
                     </a>
                 </div>
             </div>
-        
+
         </div>
     </section>
-    
+
     <section class="partners" aria-label="Quem Confia">
         <div id="partnersContainer" class="section-container margin-top">
             <h1 class="text-center">Quem Confia</h1>
@@ -237,58 +242,69 @@
         </div>
     </section>
 
-    <section aria-label="Empresas Parceiras">
-        <h1 class="text-center">Empresas Parceiras</h1>
-        <div id="partners2Container" class="section-container margin-top mx-auto">
-            <div id="carouselControls" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="card card-tall">
-                            <div class="card-content-image flex-v margin-bottom">
-                                <img src="images/mahani_logo.png" alt="" class="">
+    <section class="empresas-parceiras" aria-label="Empresas Parceiras">
+        <div class="section-container margin-top">
+            <h1 class="text-center">Empresas Parceiras</h1>
+            <div id="EmpresasParceirasContainer" class="">
+                <div class="">
+                    <div id="empresas-parceiras-carousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#empresas-parceiras-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#empresas-parceiras-carousel" data-slide-to="1"></li>
+                          </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card card-tall mx-auto">
+                                    <div class="card-content-image flex-v margin-bottom">
+                                        <img src="images/mahani_logo - Copia.png" alt="" class="responsive-image">
+                                    </div>
+                                    <div class="card-content">
+                                        <h5 class="card-content-title no-margin-top text-center">Parceria em Propriedade
+                                            Intelectual</h5>
+                                        <p class="card-content-text">
+                                            <div class="150">Nossa empresa surgiu do desejo de oferecer soluções estratégicas de
+                                                maneira rápida, fácil e descomplicada para proteção do Patrimônio Intelectual
+                                                dos pequenos empreendedores, Startups e dos empreendedores de Impacto Social.
+                                                Todos estes que tem a criatividade e inovação no DNA.</div>
+                                        </p>
+                                        <div class="card-content-footer">
+                                            <button onclick="window.open('https://mahani.com.br/','_blank');"
+                                                class="card-content-button muted-button">Acessar site</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="card-content">
-                                <h5 class="card-content-title no-margin-top text-center">Parceria em Propriedade Intelectual</h5>
-                                <p class="card-content-text">
-                                    <div class="150">Nossa empresa surgiu do desejo de oferecer soluções estratégicas de maneira rápida, fácil e
-                                        descomplicada para proteção do Patrimônio Intelectual dos pequenos empreendedores, Startups e dos
-                                        empreendedores de Impacto Social. Todos estes que tem a criatividade e inovação no DNA.</div>
-                                </p>
-                                <div class="card-content-footer">
-                                    <button onclick="window.open('https://mahani.com.br/','_blank');"
-                                        class="card-content-button muted-button">Acessar site</button>
+                            <div class="carousel-item">
+                                <div class="card card-tall mx-auto">
+                                    <div class="card-content-image flex-v margin-bottom">
+                                        <img src="images/clube_brincante - Copia.jpg" alt="" class="responsive-image">
+                                    </div>
+                                    <div class="card-content">
+                                        <h5 class="card-content-title no-margin-top text-center">Clube Brincante</h5>
+                                        <p class="card-content-text">
+                                            <div class="150">Somos uma e-commerce de brinquedos educativos e materiais para
+                                                atividades sensoriais. Nossa maior preocupação é ofertar recursos para que vocês
+                                                possam desenvolver suas crianças brincando.</div>
+                                        </p>
+                                        <div class="card-content-footer">
+                                            <button onclick="window.open('https://www.clubebrincante.com.br/','_blank');"
+                                                class="card-content-button muted-button">Acessar site</button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="card card-tall">
-                            <div class="card-content-image flex-v margin-bottom">
-                                <img src="images/clube_brincante.jpg" alt="" class="">
-                            </div>
-                            <div class="card-content">
-                                <h5 class="card-content-title no-margin-top text-center">Clube Brincante</h5><p class="card-content-text">
-                                    <div class="150">Somos uma e-commerce de brinquedos educativos e materiais para atividades sensoriais. Nossa maior
-                                        preocupação é ofertar recursos para que vocês possam desenvolver suas crianças brincando.</div>
-                                </p>
-                                <div class="card-content-footer">
-                                    <button onclick="window.open('https://www.clubebrincante.com.br/','_blank');"
-                                        class="card-content-button muted-button">Acessar site</button>
-                                </div>
-                            </div>
-                        </div>
+                        <a class="carousel-control-prev" href="#empresas-parceiras-carousel" role="button" data-slide="prev">
+                            <span aria-hidden="true"><i class="fas fa-chevron-circle-left fa-2x control-color"></i></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#empresas-parceiras-carousel" role="button" data-slide="next">
+                            <span aria-hidden="true"><i class="fas fa-chevron-circle-right fa-2x control-color"></i></span>
+                            <span class="sr-only">Next</span>
+                        </a>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
-                    <span aria-hidden="true"><i class="fas fa-chevron-circle-left fa-2x control-color"></i></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
-                    <span aria-hidden="true"><i class="fas fa-chevron-circle-right fa-2x control-color"></i></span>
-                    <span class="sr-only">Next</span>
-                </a>
             </div>
-    
         </div>
     </section>
 
